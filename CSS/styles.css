@@ -1,0 +1,158 @@
+body {
+  background-color: #f4f4f4;
+  text-align: center;
+  margin: 0;
+  font-family: 'Merriweather', serif;
+  color: #40514E;
+}
+
+.top-container {
+  background-color: #eadca6;
+  position: relative;
+  padding-top: 100px;
+}
+
+.sun {
+  position: absolute;
+  height: 100px;
+  width: 100px;
+  left: 150px;
+  top: 50px;
+}
+
+.cloud {
+  position: absolute;
+  right: 180px;
+  top: 90px;
+}
+
+p {
+  line-height: 2;
+}
+
+h1 {
+  margin: 20px auto 0 auto;
+  font-size: 5.625rem;
+  font-family: 'Sacramento', cursive;
+  color: #e2c275;
+}
+
+.top {
+  margin: 0 auto;
+  padding-bottom: 50px;
+}
+
+h2 {
+  font-size: 2.5rem;
+  color: #e2c275;
+  font-family: 'Montserrat', sans-serif;
+}
+
+.intro {
+  margin: 70px auto auto auto;
+  width: 30%;
+}
+
+h3 {
+  font-family: 'Montserrat', sans-serif;
+  color: #c36a2d;
+  font-style: normal;
+  font-weight: bolder;
+}
+
+hr {
+  /** border-top: dotted 5px; **/
+  border: dotted 6px;
+  border-bottom: none;
+  width: 5%;
+  color: #fcf7bb;
+  margin: 100px auto;
+}
+
+.intro-img {
+  width: 150px;
+}
+
+.gardening {
+  width: 30%;
+  float: right;
+  margin-left: 30px;
+}
+
+.cooking {
+  width: 30%;
+  float: left;
+  margin-right: 30px;
+}
+
+.reading {
+  width: 30%;
+  float: left;
+  margin-right: 30px;
+}
+
+.Hobby-row {
+  width: 50%;
+  margin: 100px auto 100px auto;
+  text-align: left;
+}
+
+.btn {
+  background: #C36A2D;
+  background-image: -webkit-linear-gradient(top, #C36A2D, #C36A1D);
+  background-image: -moz-linear-gradient(top, #C36A2D, #C36A1D);
+  background-image: -ms-linear-gradient(top, #C36A2D, #C36A1D);
+  background-image: -o-linear-gradient(top, #C36A2D, #C36A1D);
+  background-image: linear-gradient(to bottom, #C36A2D, #C36A1D);
+  -webkit-border-radius: 8px;
+  -moz-border-radius: 8px;
+  border-radius: 8px;
+  color: #FFFFFF;
+  font-family: 'Montserrat', sans-serif;
+  font-size: 20px;
+  padding: 10px 20px;
+  text-decoration: none;
+}
+
+.btn:hover {
+  background: #C36A00;
+  background-image: -webkit-linear-gradient(top, #C36A00, #C36A12);
+  background-image: -moz-linear-gradient(top, #C36A00, #C36A12);
+  background-image: -ms-linear-gradient(top, #C36A00, #C36A12);
+  background-image: -o-linear-gradient(top, #C36A00, #C36A12);
+  background-image: linear-gradient(to bottom, #C36A00, #C36A12);
+  text-decoration: none;
+}
+
+a {
+  color: #c36a2d;
+  margin: 10px 20px;
+  text-decoration: none;
+  font-family: 'Montserrat', sans-serif;
+}
+
+a:hover{
+color: #eadca6;
+}
+
+.contact-message{
+  width: 40%;
+  margin: 40px auto 60px;
+}
+
+.bottom-container{
+  background-color: #e2c275;
+  padding: 50px 0 20px;
+  margin-top: 100px;
+}
+
+.copyright{
+  color: #fcf7bb;
+  font-weight: normal;
+  font-size: 0.75rem;
+  padding: 20px 0;
+}
+
+.footer-link{
+  margin: 20px;
+}
